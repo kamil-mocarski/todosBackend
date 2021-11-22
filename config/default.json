@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://kamoc:****@cluster0.himqt.mongodb.net/****?retryWrites=true&w=majority"
+}
