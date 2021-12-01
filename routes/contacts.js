@@ -2,9 +2,8 @@ const express = require("express");
 const router = express.Router();
 const { check, validationResult } = require("express-validator");
 const Contact = require("../models/Contact");
-const User = require("../models/User");
+
 const auth = require("../middleware/auth");
-const { findByIdAndDelete } = require("../models/Contact");
 
 // @route GET /contacts
 // @desc get all contacts
